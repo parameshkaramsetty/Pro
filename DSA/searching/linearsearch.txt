@@ -1,0 +1,26 @@
+we go with a loop from start to end and we keep on searching for every element
+
+1 2 3 4 5 
+i 
+  i 
+    i  
+      i 
+         i
+
+    we take a iterator and keep on checking for each value in the ARRAY to search for the element is present or not
+
+let 
+a[] = { 1,78,23,47,81,99,56,61,90,32 };
+        0  1  2  3  4  5  6  7  8  9
+
+key = 81
+we check for every element using a loop 
+    a[0]==key
+    a[1]==key
+    a[2]==key
+    a[3]==key
+    a[4]==key  --> it is true  -> then we can say that the element is there in the ARRAY
+
+if the element is not found then we return -1( -ve indexing ) -> element is not present in the given ARRAY
+
+time complexity : O(n)

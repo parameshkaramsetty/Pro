@@ -1,0 +1,11 @@
+It is a type of linear search
+it is used to avoid out of bound comparisions
+
+last element in the array is made the key -> assume that the key is in the last index of the array
+we will make sure that key is in array by the above step
+sentinal search - target value => added at the end of the array
+no. of comparisions made - n+2
+index will never be out of bounds of the array
+time complexity is same as linear search but no. of comparisions are reduced in sentinal linear search
+
+working of linear search
