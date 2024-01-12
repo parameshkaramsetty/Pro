@@ -1,0 +1,41 @@
+MATHEMATICS AND NUMBER THEORY 
+
+we cannot work with large numbers like(10^31) and so on
+So we use modulo arithmetic inorder to overcome this as it makes the things easier
+
+int mod = 1e9+7;
+
+GCD AND LCM
+PRIME NUMBER OR NOT
+SEIVE ALGORITHM
+
+BINARY EXPONENTIATION
+
+DIVISIBILTIY AND LARGE NUMBERS
+
+we have divisibilty rules 
+1 - every number is divisible by 1
+2 - if the number is ending with 0 , 2 , 4 , 6 , 8
+3 - if the sum of digits is divisible by 3 then the number is divisible by 3
+4 - if the last 2 digits of a number is divisible by 4 then the it is divisible by 4
+5 - if it the number ends with 0 or 5 then the number is divisible by 5
+6 - (2*3=6) => if the number is divisible by 2 and 3 then it is divisble by 6 - here we use rule of 2 and 3 ( units digit is even and sum of digits is divisible by 3)
+7 - remove the last digit double it and subtract from the remaining number and repeat the process until it becomes 2-digit number multiple of 7 or 0 then the number is divisible by 7 
+	i. 1073 % 7 ?  
+	107 3 
+	107 - (3*2) => 107 - 6 => 101 => again repeat
+	ii. 101 % 7 ?
+	10 - (2*1) => 10 -2 => 8 which is a single digit number and it is not divisible by 7
+	
+8 - if the last three digit numbers are divisble by 8 then it is divisble by 8
+9 - same as 3 = if sum divisble by 9 then n is divisble by 9
+10 - if it ends with 0 then it is divisble by 10
+11 - if the difference of the alternative digits are divisble by 11 then n is divisible by 11
+2143 - even digit
+31 = 4
+42 = 6
+sum of digits in (odd places - even places) = 2 not divisible by 11
+12345 - odd digit 
+
+12 - 
+
