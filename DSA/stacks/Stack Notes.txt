@@ -1,0 +1,22 @@
+LIFO - LAST IN FIRST OUT
+FILO - FIRST IN LAST OUT
+
+A B C D E
+
+E   -> TOP
+D
+B
+C
+A
+
+OPERATIONS 
+push() -> adds item into the stack 
+IF THE STACK IS FULL IT SAYS OVERFLOW
+pop() -> to remove item from stack
+isEmpty() -> to check whether stack is empty or not - returns true when stack is empty else false
+top() -> returns top most element of the stack
+size() -> returns the size of the stack
+
+push - while pushing we need to check for size of the stack - if the size of stack is full then it becomes OVERFLOW
+pop - removes the topmost element in the stack - if the size of stack is null then it becomes underflow
+
