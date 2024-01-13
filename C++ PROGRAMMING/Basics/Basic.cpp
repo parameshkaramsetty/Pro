@@ -235,6 +235,117 @@ void Arrays(){
     // we can access the arrays and loop like normal arrays
     // use multi dimensional arrays while using in grids        
 }
+
+//structure without a name
+// struct {
+//     string brand;
+//     string model;
+//     int year;
+// }car1,car2
+/*
+    we can create variables of struct using variables
+    after declaring the structure
+    
+*/
+
+// structure with a name
+// by this we can create a new data type that has multiple primitive data types in it
+// using this we can create multiple variables instead of declaring variables after declaring the structure
+// struct person{
+//     int age;
+//     string name;
+// };
+// typedef person p;
+void l_struct(){
+    // p persons[2];
+    // persons[1].age=19;
+    // persons[0].age=19;
+    // persons[0].name="sowrya";
+    // persons[1].name="anji";
+    // cout<<persons[0].name<<"\n";
+}
+void reference(){
+    // & -> reference - address
+    // string food = "pizza";
+    // string &meal = food;// creating a reference variable 
+    // // we can create a reference variable using & operator
+    // we can access it using any of the two variables
+    // * pointer  -> store the address as its value
+    int a = 2;
+    int &b = a;     
+}
+void pointer(){
+  int a = 5; // & -> represents the address of the variable
+  int *b = &a;//* -> stores the address of the variable -> pointer variable - reference operator
+  cout<<a<<endl;
+  cout<<b<<endl; // gives the address - value of &a;
+  cout<<*b<<endl;// * -> gives value at that address &a -> dereference operator
+}
+void function(){
+    /*
+    MAIN FUNCTION IS THE FUNCTION THAT GETS EXECUTED WHEN THE PROGRAM IS RUNNING WITHOUT ANY CALLING
+
+        a function is a block of code which runs only when it is called
+        creating a function
+        data_type function_name(){
+            //block of code
+        }
+        calling a function:
+            function_name(); // calling a function
+        
+        ex:void -> returns nothing
+            void myFun(){
+                print("hello");
+            }
+        
+        A FUNCTION COSISTS OF TWO PARTS 
+        FUNCTION DECLARATION - return type , name , parameters
+        FUNCTION DEFINITION - body of the function
+        
+        void myFun(){ // function declaration
+            // body of the function // function definition
+        }
+            
+    */
+    /*
+        
+        void function_name(parameter_1,parameter_2,...,parameter_n){
+            //function_body
+            // the parameter should be defined using the datatype and name_of_the_variable
+            
+            
+        }
+    
+    */
+    
+    
+}
+/*
+void ex_function(string name){// we can also give multiple parameters based on the requirement
+    cout<<"Hello Mr."<<name<<"\n";
+}
+int main(){
+  ex_function("Sowrya");
+}
+*/
+/*
+parameters - 
+default parameters - if the value of argument is not given then the default value of the argument will be executed
+
+void myFun(string name="name_here"){// default parameter or optional parameter
+    cout<<"hello"<<"mr.name"<<"\n";
+    
+    // we can also return values based on the return type that we mention that we use on function declaration
+    
+    // we can also pass the arguments by its reference also using its address
+    so that if we want to return multiple values we can change the values on its address
+    as return statement can return only return only one value
+    
+    we can pass array to a function
+    
+}
+
+*/
 int main(){
     // // output
     // cout<<"hello world\n";
@@ -287,6 +398,53 @@ int main(){
 
     
 
+    /*
+// void fun(int &a,int &b){
+//     // function that returns more than two variables without using any return type using its reference
+//     b=2;
+//     a=3;
+// }
+// int main(){
+//     int a = 2,b = 3;
+//     fun(a,b);
+//     cout<<a<<" "<<b<<" "<<endl;
+// }
+*/
+// // passing a array to a function
+// void fun(int a[]){
+//     for(int i=0;i<5;i++){
+//         cout<<a[i]<<" ";
+//     }
+//     cout<<endl;
+// }
+// int main(){
+//     int a[] = {1,2,3,4,5};
+//     fun(a);
+//     for(auto i:a){
+//         cout<<i<<" ";
+//     }
+// }
+/*
+function overloading - it is a method in which multiple functions can have the same name but different parameters
+int fun(int a , int b){
+    return a+b;
+}
+float fun(float a , float b){
+    return a+b;
+}
+string fun(string a , string b){
+    return a+b;
+}
+cout<<fun(2,3)<<endl;cout<<fun(2,3)<<endl;cout<<fun("2","3")<<endl;
+    /*
+    o/p :
+    5
+    5
+    23
+    */
+
+
     return 0; // -> ends the function
+
 
 }
