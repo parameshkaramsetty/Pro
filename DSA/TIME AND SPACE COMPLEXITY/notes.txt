@@ -1,0 +1,60 @@
+Time complexity - It is the rate at which  how the time grows as input grows
+                  It is not the time taken to execute the code
+                  The time taken varies depending upon the configuration of the machine
+
+            /*      THE RATE AT WHICH TIME TAKEN INCREASES W.R.T INPUT      */
+
+            It is expressed in terms of (O()) => Big O notation - worst case time complexity
+            Big O - worst case scenario
+            Rules while considering time complexity :
+                    - Time complexity is always considered in terms of Worst case scenario
+                    - Avoid constants    - as it does not having any significance
+                    - Avoid lower values - as it does not having any significance
+
+            Best case    - when the code takes least amount of time   - lower bound - Omega
+            Average case - It is the average of best and worst case   - average of lower and upper bound - Theta
+            Worst case   - when the code takes maximum amount of time - upper bound - Big O
+
+            Time complexity - should consider all the cases - so we take worst case time complexity every time
+                              By keeping in mind about every machine configuration
+            
+
+Space complexity - Memory space that program takes - independent of machine
+                   It is also expressed in terms of Big O
+
+                   /* Auxiliary Space + Input space */
+                   Auxiliary space - the space that you take to solve the problem
+                   Input space     - the space that you take to store the input 
+
+                   Auxiliary space & Input space
+                   ex : a = 2  - Input space
+                        b = 2  - Input space
+                        sum = a + b (extra space - Auxiliary space)   -  O(1)    
+
+                        Over all space complexity = O(3)
+
+                    Later on we can express it on Bytes and so on
+
+                    Ex :
+                        int a[n];
+                        Space complexity : O(n)
+
+                    
+                    While working 
+
+
+In Interviews - we used to express both time and space complexity are expressed in terms of [ Big O notation ]
+                Never do anything to the Input - because it should not be override
+                Data given should not be touched  -  Because the data should not be changed
+
+
+Server of LC , GFG  ... 
+                        1 sec - (10**8)
+                        2 sec - 2(10**8)
+                        ...
+
+
+
+
+
+
