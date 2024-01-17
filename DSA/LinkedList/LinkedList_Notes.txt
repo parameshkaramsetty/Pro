@@ -1,0 +1,2 @@
+LinkedList is a type of data structure
+Where it consists of 2 parts - data and address

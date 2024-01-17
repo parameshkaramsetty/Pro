@@ -1,0 +1,6 @@
+Recursion - A function that calls itself until a specific conditon is satisfied
+It has a -
+    Base Condition
+It is enough to check for the 1st case whether the condition is working fine or not 
+We need to trust 
+And we need to check sub-part and how it returns to the main part

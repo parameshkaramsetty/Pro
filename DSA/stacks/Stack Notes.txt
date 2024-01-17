@@ -19,4 +19,3 @@ size() -> returns the size of the stack
 
 push - while pushing we need to check for size of the stack - if the size of stack is full then it becomes OVERFLOW
 pop - removes the topmost element in the stack - if the size of stack is null then it becomes underflow
-

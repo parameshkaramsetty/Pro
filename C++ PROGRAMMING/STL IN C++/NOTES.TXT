@@ -8,7 +8,6 @@ FUNCTIONS
 ITERATORS
 
 SORTING AN ARRAY
-
 sort(a,a+size)
 sort(begin(array),end(array));
 
@@ -54,6 +53,8 @@ minmax_element(begin(arr),end(arr)); // it returns a pair of element
 
 pair<int,int> p;
 p.first p.second
+
+
 
 
 
