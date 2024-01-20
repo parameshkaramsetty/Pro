@@ -1,7 +1,17 @@
+STACK
+    It is a data structure in which operations are performed on the basis of FIRST IN LAST OUT
+
 LIFO - LAST IN FIRST OUT
 FILO - FIRST IN LAST OUT
 
 A B C D E
+        T  push - F
+
+A B C D E F
+          T   pop - F
+
+A B C D E
+        T
 
 E   -> TOP
 D
@@ -18,4 +28,15 @@ top() -> returns top most element of the stack
 size() -> returns the size of the stack
 
 push - while pushing we need to check for size of the stack - if the size of stack is full then it becomes OVERFLOW
+       increment top and add the element to the top
+       if stack is full - overflow
+       stack[top++] = data
+
 pop - removes the topmost element in the stack - if the size of stack is null then it becomes underflow
+      return the topmost element and top--
+      if stack.empty() - underflow
+      removed - stack[top]
+      top--
+      
+
+    
