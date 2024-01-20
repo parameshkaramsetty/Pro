@@ -1,0 +1,67 @@
+Queues
+FIFO
+It is a data structure that is open at both ends and operations are performed in FIRST IN FIRST OUT
+IT IS A LIST IN WHICH ELEMENTS ARE ADDED FROM THE ONE SIDE AND DELETED FROM THE ANOTHER SIDE
+
+Q: FIFO      (FIRST)
+                1 2 3 4 5
+                        (LAST)
+
+                        FRONT                            REAR
+   1  (DEQUE)   <-        1       2       3       4       5       <- (ENQUE) 6
+
+           =>
+                          2       3       4       5       6
+
+            FRONT - HEAD - OPERATION PERFORMED - DEQUE - REMOVING THE ELEMENTS FROM THE QUEUE - First element in the queue
+            REAR - TAIL , BACK , - ENQUE - ADDING THE ELEMENTS INTO THE QUEUE - Last element in the queue
+
+    a queue - it is like a line in waiting for purchasing tickets the one who goes first will get the tickets and goes out 
+    It can handle multiple data
+    Elements can be accessed from both ends
+    They are fast and flexible
+
+
+Operations :
+Enqueue() - adds Elements
+Dequeue() - removes Elements
+Peek() or Front() - Gives the element at front of the queue
+rear() -    Gives elemt at rear of queue
+isFull() - tells whether queue is full or not
+isNull() - tells whether queue is empty or not
+
+Enqueu() - elements are added at the rear - so we need to point rear to the new element that is added to the queue
+        We need to follow some steps for it before adding elements into the queue
+        Whether the queue is full or not
+        if full - overflow
+        If it is not full then increment the rear pointer to the next empty space and then add the element where the rear is pointing 
+        Then it will work fine
+
+        if capacity == rear -> return overflow
+        else queue[rear] = data & then rear++
+
+
+
+
+Dequeue() - element is removed from the queue and it is done at Front
+        Before removing we need to check whether is queue is empty or it contains elements to delete 
+        if it is null - can be checked by isNUll() - then it is  underflow
+        else we can remove the elements from the queue at front - get the data from the queue where front is pointing - change the pointer of front to next available data 
+
+        if front == rear -> return underflow
+        else loop and change queue[i] = queue[i+1]; and then 
+        rear--
+
+
+Front() - queue->front
+rear()  - queue->rear
+
+isEmpty() - returns a boolean value 
+(front==-1)?return True:return False;
+
+isFull() - returns boolean value
+(front==0 and rear=size-1)?True:False
+
+
+
+
