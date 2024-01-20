@@ -1,0 +1,162 @@
+C++ || JAVA  || PYTHON
+
+Syntax
+OOPs
+STL - vector , set , map
+COLLECTIONS - arraylist , set , map
+
+Time & Space Complexity
+
+Maths 
+	count digits
+	palindrome numbers
+	factorial numbers
+	GCD , LCM
+	Prime
+	Prime Factors
+	Seive of Eratosthenes
+	Computing Power - Modulo arithmetic
+Number Theory
+	Prime Numbers - Factorization
+	Seive
+	Modular Arithmetic
+	Binary Exponentiation
+	Euclidean GCD 
+	Linear Diophantine equation and modular inverse
+	
+Bit Manipulation
+	bit wise operations
+	left shift 
+	right shift
+
+	
+	
+
+Arrays 
+	Fixed Sized & Dynamic Sized
+	Operations - Searching , Insertion , Deletion , Reversing
+	Subarrays
+	Subsequences	
+	Rotation
+	PATTERNS
+		SLIDING WINDOW TECHNIQUE
+		PREFIX SUM TECHNIQUE
+	MultiDimensional Arrays
+
+Recursion
+	Base Cases - Factorial , Nth Fibonacci Number
+	Formulae generation
+	Tower of Hanoi
+	Josephus
+	Discrete mathematics - recurrence relations
+	pigeon hole principle
+	probability
+	
+Searching 
+	BINARY SEARCH
+	TERENARY SEARCH
+	TWO POINTER
+	
+	
+Sorting
+	STL 
+	COLLECTIONS 
+	Bubble sort
+	Selection sort
+	Insertion sort
+	Merge sort
+	Union & Intersection
+	Heap sort
+	Cycle sort
+	Counting sort
+	Radix sort
+	Bucket sort
+Matrix
+	Transpose
+	Rotation 
+	row wise , column wise
+	Matrix multiplication
+	Spiral matrix
+Hashing
+	C++ - Unordered set , map
+	Java - HashSet , HashMap
+	Hash Function
+	Implementation
+	
+Strings
+	Subsequences
+	Subsets
+	Rabin Karp Algorithm
+	KMP Algorithm
+	Naive Pattern Matching
+	
+	
+
+Stack
+	Implementation using array and Linked list
+	Parenthesis
+	Infix , prefix , postfix
+	operations
+	
+Queue
+	Implementation using array and linked list
+	stack using queue
+	operations
+Deque
+	Implementation
+	
+Linked List
+	Implementation
+	Singly linked list
+	Doubly Linked list
+	Circular linked list
+	Basic operations
+	
+Tree
+	Implementation
+	Operations
+	Traversals
+		Inorder
+		PreOrder
+		PostOrder
+		LevelOrder 
+Binary Search Tree
+	Implementation 
+	Operations
+	Self Balancing BST
+	AVL Tree
+	Red Black Tree
+	Tree set
+	Tree Map
+	
+	
+Graph
+	Representation
+	Implementation
+	BFS - APP.
+	DFS - APP.
+	Shortest path
+	Prims algorithm
+	Dijkstra's shortest path
+	Bellman Ford shortest path algorithm
+	Kruskals algorithm
+	Kosaraju algorithm
+	Atriculation point
+	Bridges in a graph
+	Tarjan's algorithm
+
+Greedy
+
+Backtracking
+
+Dynamic Programming
+
+Trie
+
+Segment Tree
+
+Disjoint Set
+
+
+	
+	
