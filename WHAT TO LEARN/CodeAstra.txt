@@ -158,5 +158,8 @@ Segment Tree
 Disjoint Set
 
 
-	
+ALGORITHMS
+
+PREFIX SUM
+SLIDING WINDOW 
 	
