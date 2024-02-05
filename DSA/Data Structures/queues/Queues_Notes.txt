@@ -63,5 +63,14 @@ isFull() - returns boolean value
 (front==0 and rear=size-1)?True:False
 
 
+Implementation of Queue :
+Using Arrays
+Using Linked Lists
+Using Stacks
+
+
+
+
+
 
 

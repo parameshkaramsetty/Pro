@@ -1,0 +1,12 @@
+points to remember:
+1)
+reversing a vector:
+reverse(a.begin(),a.end())
+
+2)
+sort(a.begin(),a.end())
+
+3)
+rotate(a.begin(),a.begin()+k,a.end())
+
+

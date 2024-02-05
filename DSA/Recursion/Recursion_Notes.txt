@@ -4,3 +4,31 @@ It has a -
 It is enough to check for the 1st case whether the condition is working fine or not 
 We need to trust 
 And we need to check sub-part and how it returns to the main part
+
+In some cases to get the answer we need to take the helper function in order to get answer
+
+Convert Iteration mechanism into Recursion but here we need to consider like in O(1) for each function call
+
+//Recursion - parameterized and functional
+//parameterized - f(i,sum)
+
+
+when there are multiple recursion calls - we go till calling the same function until the base condition is satisfied and then it will return then the next line in function gets executed and when it is completed it returns value to the function in which it is called
+finally the function will return the answer
+Ex:
+Consider Fibonacci Number
+f(0)=0 , f(1)=1
+
+if(n<=1)return n;
+l = f(n-1);
+sl = f(n-2);
+return l+sl;
+
+f(4)
+
+l -> f(3) -> l -> f(2) -> f(1) base case is reached so it returns 1 and for f(2) second recursive fun call f(0) -> returns 0
+f(2) returns l+sl 0+1 = 1
+
+Pick / Unpick
+
+

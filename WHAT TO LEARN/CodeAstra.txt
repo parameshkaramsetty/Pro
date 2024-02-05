@@ -1,3 +1,6 @@
+EXPLANATION 	PSUEDOCODE 		DRYRUN 		CODE
+
+
 C++ || JAVA  || PYTHON
 
 Syntax
@@ -160,6 +163,8 @@ Disjoint Set
 
 ALGORITHMS
 
-PREFIX SUM
-SLIDING WINDOW 
+Prefix sum
+Slidiing Window
+
+
 	

@@ -1,0 +1,15 @@
+Sorting Techniques
+
+*** Technique - Time Complexity ***
+Bubble Sort 
+Quick Sort
+Selection Sort
+Insertion Sort
+Merge Sort
+Count Sort
+DNF Sort
+Wave Sort
+
+
+
+

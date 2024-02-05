@@ -6,5 +6,22 @@ Music Player
 Browser Tabs
 Images Gallery
 
+Types:
+Singly LinkedList
+Doubly LinkedList
+Circular LinkedList
+Circular Doubly LinkedList
+
+A LinkedList can consists anything but it must be linked with other nodes in the memory
+Ex: 
+D - Data , A - Address
+1)Node - D D D A
+2)Node - A D A
+3)Node - D A
+....
+
+1)Implementation of LinkedList
+2)Operations performed on a LinkedList - Insertion , Deletion , Retreiving
+ 
 
 
