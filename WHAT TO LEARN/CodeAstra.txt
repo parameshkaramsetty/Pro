@@ -1,4 +1,5 @@
 EXPLANATION 	PSUEDOCODE 		DRYRUN 		CODE
+BRUTE FORCE		BETTER		OPTIMAL
 
 
 C++ || JAVA  || PYTHON
@@ -67,10 +68,11 @@ Sorting
 	Bubble sort
 	Selection sort
 	Insertion sort
+	Quick sort
 	Merge sort
 	Union & Intersection
 	Heap sort
-	Cycle sort
+	Cyclic sort
 	Counting sort
 	Radix sort
 	Bucket sort
