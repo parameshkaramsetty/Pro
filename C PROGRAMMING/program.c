@@ -8,7 +8,4 @@ int main(){
     n=60;
     printf("%d\n",n);
     printf("%.2f",pi);
-    
-
-
 }
