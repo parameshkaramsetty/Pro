@@ -7,50 +7,50 @@ int main(){
 
     vector<int>b(a.begin(),a.begin()+4);
     for(auto i :b){
-        cout<<i<<" ";
+        cout<<i<<" "; // 1 3 2 5
     }
     cout<<endl;
     
     vector<int>c(a.end()-3,a.end()-1);
     for(auto i :c){
-        cout<<i<<" ";
+        cout<<i<<" "; // 3 2
     }
     cout<<endl;
     
     vector<int>d(a.rbegin()+2,a.rbegin()+4);
     for(auto i :d){
-        cout<<i<<" ";
+        cout<<i<<" ";// 3 1
     }
     cout<<endl;
     
     vector<int>e(a.rend()-4,a.rend());
     for(auto i :e){
-        cout<<i<<" ";
+        cout<<i<<" ";//5 2 3 1
     }
     cout<<endl;
     
     vector<int>f(a.begin(),a.end());
     for(auto i :f){
-        cout<<i<<" ";
+        cout<<i<<" "; //1 3 2 5
     }
     cout<<endl;
     
     vector<int>g(a.end()-3,a.begin()+2);
     for(auto i :g){
-        cout<<i<<" ";
+        cout<<i<<" ";// 3
     }
     cout<<endl;
     
     vector<int>h(a.rbegin(),a.rend());
     for(auto i :h){
-        cout<<i<<" ";
+        cout<<i<<" ";// 5 2 3 1
     }
     cout<<endl;
     
     vector<int>j(a.rend()-4,a.rbegin()+4);
     
     for(auto i :j){
-        cout<<i<<" ";
+        cout<<i<<" "; // 5 2 3 1
     }
     cout<<endl;
     
