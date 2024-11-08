@@ -1,0 +1,69 @@
+STL STANDS FOR STANDARD TEMPLATE LIBRARY 
+IT IS USED IN C++ PROGRAMMING FOR A ENHANCED WAY
+IT IS A LIBRARY OF CONTAINERS , CLASSES , ALGO. & ITERATORS 
+IT HAS A , C , F , I 
+ALGORITHMS
+CONTAINERS
+FUNCTIONS
+ITERATORS
+
+SORTING AN ARRAY
+sort(a,a+size)
+sort(begin(array),end(array));
+
+// a is array , size is size of array
+// it takes the minimum time complexity based on the ALGORITHMS it have on sorting
+// quick sort -> O(n*logn)
+
+SEARCHING AN ARRAY
+BINARY SEARCH - works only on sorted array - inorder to search in an simple way - sort the array - and then apply the binary search 
+SORTING => BINARY SEARCH
+
+binary_search(start_address,end_address,element_to_search) -> it return 1 when element is present else it returns 0
+1 => true
+0 => false
+we can use binary search for entire array or only for some parts of arrays since it uses addresses
+
+SORTING OF VECTORS 
+here we use iterators 
+vector<int> v;
+sort(start_it , end_it);
+reverse(start_it , end_it);
+sort(v.begin(),v.end()); -> sorts in ascending order
+sort(v.begin(),v.end(),greater<int>()); -> sorts in descending order
+                        comp
+v.begin() , v.end() -> iterators - we can also use this based on the part of the vector that we need to sort
+in this we can also use comparators - to sort using a function - in either ascending or descending
+
+reverse(v.begin(),v.end());
+to get max_element : we need to use max_element(start_it,end_it)  -> it returns the address
+and for min_element : min_element(start_it,end_it) -> it return the address
+
+to get the value at that particular address - we use *
+so we use *max_element(start_it,end_it)
+//y for min.
+
+we can also sum up the values of vector based on the part of vector that we need to accumulate
+accumulate(start_it,end_it,initial_value)
+//accumulate(v.begin(),v.end(),0);
+
+to get minimum and maximum element of an array 
+pair<int,int> p = minmax_element(arr,arr+n)
+minmax_element(begin(arr),end(arr)); // it returns a pair of element
+
+pair<int,int> p;
+p.first p.second
+
+
+
+
+
+
+
+
+
+
+
+
+
+
