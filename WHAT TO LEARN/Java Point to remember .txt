@@ -1,6 +1,0 @@
-Element present or not:
-f.indexOf('1')!=-1 
-
-Comparing 2 strings:
-s1.equals(s2)
-
