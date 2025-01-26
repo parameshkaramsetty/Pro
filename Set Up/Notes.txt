@@ -1,0 +1,152 @@
+0.Install MingW for C/C++ , Python , Java JDK 
+1.Install VS Code and then extension pack for C/C++ , Java , Python , Code Runner , 
+2.Create a Folder and open it in editor
+3.Create 3 Files
+    Program.fileNameExtension (.cpp , .c , .python , .java)
+    input.txt
+    output.txt
+4.Click on View in the Menu : View > Editor Layout > Two Rows Right
+5.Place it according to the requirement for set up
+6.Click on Terminal -> Configure Tasks -> Create tasks.json file from template -> others
+7.Place the given code in the tasks.json file 
+
+Here is the Code for C : 
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "compile",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-std=c11",
+                "-o",
+                "${fileBasenameNoExtension}.exe",
+                "${file}"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            }
+        },
+        {
+            "label": "compile and run",
+            "type": "shell",
+            "command": "cmd.exe",
+            "args": [
+                "/c",
+                "gcc -std=c11 -o \"${fileBasenameNoExtension}.exe\" \"${file}\" && \"${fileBasenameNoExtension}.exe\" < \"${workspaceFolder}\\input.txt\" > \"${workspaceFolder}\\output.txt\""
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "never"
+            }
+        }
+    ]
+}
+
+Here is the Code for C++ : 
+{
+  "version": "2.0.0",
+  "tasks": [
+      {
+          "label": "compile",
+          "type": "shell",
+          "command": "g++",
+          "args": [
+              "-std=c++17",
+              "-o",
+              "${fileBasenameNoExtension}.exe",
+              "${file}"
+          ],
+          "group": {
+              "kind": "build",
+              "isDefault": false
+          }
+      },
+      {
+          "label": "compile and run",
+          "type": "shell",
+          "command": "cmd.exe",
+          "args": [
+              "/c",
+              "g++ -std=c++17 -o \"${fileBasenameNoExtension}.exe\" \"${file}\" && \"${fileBasenameNoExtension}.exe\" < \"${workspaceFolder}\\input.txt\" > \"${workspaceFolder}\\output.txt\""
+          ],
+          "group": {
+              "kind": "build",
+              "isDefault": true
+          },
+          "presentation": {
+              "reveal": "never"
+          }
+      }
+  ]
+}
+
+Here is the Code for python :
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compile and run",
+            "type": "shell",
+            "command": "",
+            "args": [
+                "python3",
+                "${relativeFile}",
+                "<",
+                "input.txt",
+                ">",
+                "output.txt"
+            ],
+            "presentation": {
+                "reveal": "never"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": {
+                "owner": "py",
+                "fileLocation": [
+                    "relative",
+                    "${workspaceRoot}"
+                ],
+                "pattern": {
+                    "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
+                    "file": 1,
+                    "line": 2,
+                    "column": 3,
+                    "severity": 4,
+                    "message": 5
+                }
+            }
+        }
+    ]
+}
+
+Here is the Code for Java : 
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compile and Run Java",
+            "type": "shell",
+            "command": "cmd.exe",
+            "args": [
+                "/c",
+                "javac ${relativeFile} && java ${fileBasenameNoExtension} < input.txt > output.txt"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "never"
+            }
+        }
+    ]
+}
