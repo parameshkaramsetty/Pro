@@ -42,7 +42,7 @@ out/
 
 # Ignore all .json files except .gitignore itself
 *.json
-!*.gitignore
+.gitignore
 
 # Ignore other potentially unnecessary files (e.g., compiled binaries, etc.)
 *.dll
