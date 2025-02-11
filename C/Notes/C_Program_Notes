@@ -10,4 +10,25 @@ Data Variable is used to store data
 int a
 
 Address variable is used to store address - Pointer
-int* a or int *a
+int* p or int *p // declaration
+p = &a -> store the address of Data Variable a //assignment or initialization
+printf("%d",*p) // dereferencing
+
+
+Whenever something is declared it will be inside stack
+
+To get Memory in Heap - we need to use the function malloc
+#include<stdlib.h>
+malloc - takes the size and it should be mentioned
+       - returns void pointer
+int *p ;
+p = (int*) malloc(n*sizeof(int)) - let the compiler decide the size
+since it returns a void pointer we need to typecast it into integer pointer
+This is how Memory in Heap is created
+
+C++:
+int *p;
+p = new int[5]; // creates memory in heap
+
+
+
