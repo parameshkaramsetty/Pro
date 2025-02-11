@@ -6,5 +6,8 @@ Pointer - a pointer is used to access something outside of a program
         It is used to store the address to locate and access it
         It is also used for parameter passing
 
-        Data Variable is used to store data
-        Address variable is used to store address - Pointer
+Data Variable is used to store data
+int a
+
+Address variable is used to store address - Pointer
+int* a or int *a
