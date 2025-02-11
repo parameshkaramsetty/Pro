@@ -1,0 +1,6 @@
+Procedural Language
+
+Pointer - a pointer is used to access something outside of a program
+        - to access external resources like harddisk , keyboard
+        - to access memory in heap
+        It is used to store the address to locate and access it
