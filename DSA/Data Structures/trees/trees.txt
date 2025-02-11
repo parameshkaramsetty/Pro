@@ -6,5 +6,13 @@ BUT IN DATA STRUCTURES => ROOT NODE , BRANCHES , LEAF NODES(NO NODES AFTER THIS)
 
 BINARY TREE - AT MAX. ONLY 2 CHILDREN(BINARY 0 & 1)
 
+A HIERARCHIAL Data Structure with 0,1,2 Childs
+
+Types
+Full Binary Tree - If all the nodes are having 0 or 2 Child nodes
+Complete Binary Tree - If all the levels are filled completely except the last level and last level should have left child or none
+Perfect Binary Tree - If all the levels are completely filled with nodes
+Balanced Binary Tree - If there are Log2(N) levels , N - No.of nodes
+Degenerate Binary Tree - If the nodes are in the form of a Queue (Continuous Pattern)
 
 
