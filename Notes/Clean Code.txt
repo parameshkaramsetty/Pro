@@ -1,0 +1,12 @@
+CLEAN CODE
+
+Keep the code clean
+
+1.Write comments for every line of code where ever required
+2.Use Naming like we use in real time - Meaningful Names for everything in code
+3.Write everything in terms of OOPs Structure
+4.Use Functions wherever required - Functions should be small and simple
+5.DRY - Don't Repeat Yourself - Corner Test Case
+6.Code Formatting
+7.Error Handling - Code must be written in such a format
+8.Everything must be Small and Simple
