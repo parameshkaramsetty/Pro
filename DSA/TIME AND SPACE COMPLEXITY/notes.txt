@@ -69,6 +69,22 @@ It is how program takes time to run  with respect to the input which varies
 It is the Rate Of Change - This is same at all cases - This is known as Time Complexity
 	Difference b/w Size Of Inputs / Difference b/w time taken by the Inputs
 
+Big O - Worst Case   - Max.
+Theta - Average Case 
+Omega - Best Case  - Min.
+
+Need to Consider in Worst Case
+
+
+
+==========================================================================================================================================
+
+Space Complexity
+
+Auxiliary Space ( Space That Code Uses ) + Input Space
+
+Note : Never Modify the Inputs given
+
 
 
 

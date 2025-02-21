@@ -1,0 +1,143 @@
+STL STANDS FOR STANDARD TEMPLATE LIBRARY 
+IT IS USED IN C++ PROGRAMMING FOR A ENHANCED WAY
+IT IS A LIBRARY OF CONTAINERS , CLASSES , ALGO. & ITERATORS 
+IT HAS A , C , F , I 
+
+ALGORITHMS
+CONTAINERS
+FUNCTIONS
+ITERATORS
+
+SORTING AN ARRAY
+sort(a,a+size)
+sort(begin(array),end(array));
+
+// a is array , size is size of array
+// it takes the minimum time complexity based on the ALGORITHMS it have on sorting
+// quick sort -> O(n*logn)
+
+SEARCHING AN ARRAY
+BINARY SEARCH - works only on sorted array - inorder to search in an simple way - sort the array - and then apply the binary search 
+SORTING => BINARY SEARCH
+
+binary_search(start_address,end_address,element_to_search) -> it return 1 when element is present else it returns 0
+1 => true
+0 => false
+we can use binary search for entire array or only for some parts of arrays since it uses addresses
+
+SORTING OF VECTORS 
+here we use iterators 
+vector<int> v;
+sort(start_it , end_it);
+reverse(start_it , end_it);
+sort(v.begin(),v.end()); -> sorts in ascending order
+sort(v.begin(),v.end(),greater<int>()); -> sorts in descending order
+                        comp
+v.begin() , v.end() -> iterators - we can also use this based on the part of the vector that we need to sort
+in this we can also use comparators - to sort using a function - in either ascending or descending
+
+reverse(v.begin(),v.end());
+to get max_element : we need to use max_element(start_it,end_it)  -> it returns the address
+and for min_element : min_element(start_it,end_it) -> it return the address
+
+to get the value at that particular address - we use *
+so we use *max_element(start_it,end_it)
+//y for min.
+
+we can also sum up the values of vector based on the part of vector that we need to accumulate
+accumulate(start_it,end_it,initial_value)
+//accumulate(v.begin(),v.end(),0);
+
+to get minimum and maximum element of an array 
+pair<int,int> p = minmax_element(arr,arr+n)
+minmax_element(begin(arr),end(arr)); // it returns a pair of element
+
+pair<int,int> p ={1,2};
+or
+pair<int,int>p = make_pair(1,2)
+p.first --> 1 
+p.second --> 2
+
+VECTORS
+   //vectors
+    // vector<int>a(10,1);
+    // show(a);//1 1 1 1 1 1 1 1 1 1 
+    
+//     vector<int>b = {3,2,4,1,5};
+//     // sort
+//     sort(b.begin(),b.end());//ASC
+//     sort(b.begin(),b.end(),greater<int>()); // DESC
+//     show(b);//1 2 3 4 5 
+    
+//     //reverse
+//     reverse(b.begin(),b.end());
+//     show(b);//5 4 3 2 1
+    
+    // vector<int>a(10,10);
+    // show(a);
+    // cout<<endl;
+    // a.clear();
+    // cout<<a.size()<<endl;
+    
+    //N-D vectors
+    //vector<data_type>vector_name -> 1D
+    //vector<vector<int>>vector_name; -> 2D
+    //vector<vector<vector<int>>>vector_name ->3D
+    
+    // //Initialization of N-D vectors
+    // //1D vectors
+    // vector<int>a(10,1);
+    // //2D vectors - 10 x 20
+    // vector<vector<int>>b(10,vector<int>(20,2));// 10 rows , 20 cols
+    
+    // can also be declared as 
+    // vector<int> a[20]; --> 2D vector of fixed size
+    
+    
+    
+    // for(auto i : b){
+    //     for(auto j : i){
+    //         cout<<j<<" ";
+    //     }
+    //     cout<<endl;
+    // }
+    // cout<<b[0][1]<<endl;
+    
+    // // cout<<b.size()<<" "<<b[0].size();// 10 20
+    // //3D vectors - 10 x 20 x 30
+    // vector<vector<vector<int>>>c(10,vector<vector<int>>(20,vector<int>(30,3)));
+    // vector<vector<int>> a[10]; --> 3D vector of fixed size
+    
+    // cout<<c.size()<<" "<<c[0].size()<<" "<<c[0][0].size();//10 20 30
+    // c[0].push_back(1);
+    // b.push_back(vector<int>(10,20));
+    // for(auto i : b){
+    //     for(auto e : i){
+    //         cout<<e<<" ";
+    //     }
+    // }
+    
+    // b.push_back(20);
+    // a.emplace_back(20);//slightly faster than the push_back
+    // a.pop_back(20);
+    
+    // vector<int>a = {1,2,3};
+    // show(a);
+    // reverse(a.begin(),a.end());
+    // //copying from one vector to other vector
+    // vector<int>b(a);
+    // show(b);
+    //swap - swap(vector1,vector2);
+    // swap(a,b);
+
+    
+
+
+
+
+
+
+
+
+
+
