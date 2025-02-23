@@ -19,9 +19,75 @@ Containers
     Iterators
 
     Pair
-    pair<int,int> p = {1,2} or pair<int,int>;
-    pair<int,string>p;
-    pair<int,vector<int>>p;
+        Declaration
+            pair<int,int> p = {1,2} or pair<int,int>p = make_pair(1,2);
+            pair<int,string>p;
+            pair<int,vector<int>>p;
+
+        Accessing Elements :
+            p.first
+            p.second
+
+    Vectors
+        Declaration
+            vector<int>v;
+            vector<int>v(5);//create a vector of 5 elements with value as 0 or garbage value
+            vector<int>v={1,2,3,4,5};
+            vector<pair<int,int>>v;//cin>>v[i].first>>v[i].second;
+
+        Accessing Elements
+            v[i];
+            v.at(i);
+
+        Functions
+            v.push_back(val); or v.emplace_back(val); // adds element to the vector
+            v.pop_back(); // removes the last element from the vector
+            v.size(); // returns the size of the vector
+            erase(v.begin(),v.end());
+
+        Iterator
+            begin(v) or v.begin() - points to the address of the first element in the vector
+            end(v) or v.end() - points to the address next to the last element in the vector
+            rbegin(v) or v.rbegin() - points to the last element in the vector
+            rend(v) or v.rend() - points to the address before the first element
+        
+        
+    
+    Lists
+        Declaration
+
+    Stack
+        Declaration:
+            stack<int>s; //stack<data_type>name;
+            stack<string>s;
+            stack<vector<int>>s;
+            stack<char>s;
+
+        Operations
+            push
+            pop
+            top
+            isempty
+        Accessing Elements:
+
+            
+    Queue
+        Operations
+            push
+            pop
+            
+    Deque
+    Priority Queue (Heap)
+    
+    Sets
+    Multiset
+    unordered_set
+
+    Map
+    Multimap
+    Unordered_map
+
+
 
 
 Functions and Algorithms

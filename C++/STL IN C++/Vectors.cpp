@@ -33,7 +33,7 @@ int main(){
 
     // Vector Of Pairs
     // vector<pair<int,int>>v;
-    // v.push_back(first,second);
+    // v.push_back({first,second});
 
     // when size is not declared
     // vector<pair<int,int>>v;
@@ -54,11 +54,10 @@ int main(){
 
     // size of vector - vector_name.size();
 
-    vector<int>a = {7,100,45,18,8};
+    // vector<int>a = {7,100,45,18,8};
 
-    cout<<a.front()<<endl;
-    auto it = find(begin(a),end(a),2)-begin(a);
-    cout<<it != end(a)<<endl;
+    // cout<<a.front()<<endl;
+    // auto it = find(begin(a),end(a),2)-begin(a);
 
 
 
