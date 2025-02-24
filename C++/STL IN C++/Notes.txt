@@ -43,7 +43,10 @@ Containers
             v.push_back(val); or v.emplace_back(val); // adds element to the vector
             v.pop_back(); // removes the last element from the vector
             v.size(); // returns the size of the vector
-            erase(v.begin(),v.end());
+            erase(v.begin()+3,v.end()-1);
+            v.insert(v.begin()+1,81);
+            swap(v1,v2);//swaps two Vectors
+
 
         Iterator
             begin(v) or v.begin() - points to the address of the first element in the vector

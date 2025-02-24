@@ -46,10 +46,5 @@ int main(){
     show_pq(pq);
 
     cout<<pq.top()<<endl; // shows the top most element
-
-
-
-
-
-
+    
 }
