@@ -1,6 +1,5 @@
 # Prerequisites
 *.d
-.gitignore
 *.txt
 .vscode
 
