@@ -1,5 +1,5 @@
-../
-./
-.vscode/tasks.json
+../*
+./*
+.vscode/*
 .exe
 .gitignore
