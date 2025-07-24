@@ -16,6 +16,9 @@ For each Concept write a program in Cpp , Java , Python
 Encapsulation - uses Access Specifiers - data can be read/write only using getters or setters having certain logic
 Example : Bank Example - Bank balance of a person can work using getters and setters methods only having a password or level of user
 
+# IMP
+Class Variables must be private since they should not be exposed directly to the outside world and for the Variables we need to use getter and setter methods
+
 Inheritance - Inheriting the properties and methods from Base Class to Derived Class - can write the common method in base class and call them when required using Inheritance
 Example : Parent to child relationship - child have own methods and inherits parent properties when required
 

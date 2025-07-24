@@ -113,3 +113,13 @@ pass - used when we want to skip the block
 
 
 
+Python 
+
+CRUD
+Declarations , assigning values , inbuilt functions and methods, combinations 
+
+List - [],list(), append , insert , extend , pop , remove , del , sort , reverse , copy , slicing
+Tuple 
+Set
+Dictionary
+
