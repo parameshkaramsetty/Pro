@@ -1,0 +1,3 @@
+Array must be in sorted order
+
+Need to use 2 Pointer - left , right -> get the middle so that change the left or right Pointer
