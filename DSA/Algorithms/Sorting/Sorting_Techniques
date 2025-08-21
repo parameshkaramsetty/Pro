@@ -1,0 +1,29 @@
+Sorting 
+
+Arranging a list/Array of elements in an order (ASC/DESC)
+
+Criteria :
+    Comparisions
+    Swapping
+    Adaptability
+    Stable
+    Extra Space
+
+Sorting Techniques :
+
+    Comparision based sorts
+
+        Bubble Sort - TC : O(N^2)
+        Insertion Sort - TC : O(N^2)
+        Selection Sort - TC : O(N^2)    
+        Merge Sort - TC : O(NlogN)
+        Quick Sort - TC : O(NlogN)
+        Heap Sort - TC : O(NlogN)
+        Tree Sort - TC : O(NlogN)
+        Shell Sort - TC : O(N^(3/2))
+    
+    Index based sorts
+
+        Count Sort - TC : O(N)
+        Bucket/Bin Sort - TC : O(N)
+        Radix Sort - TC : O(N)
